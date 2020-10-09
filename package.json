@@ -4,12 +4,22 @@
   "description": "# JSON Web Tokens for Authentication # ES6+ Syntax # Postman HTTP Client for API requests to test endpoints  # Async / Await # Mongoose / MongoDB/ Atlas ( Cloud database ) # React Hooks # Bcrypt Password Hashing # Redux with DevTools # Google Cloud / Google App Engine deployment # Git version control ( Feature Branches > Development > Release Branches > Hotfixes > Master )",
   "main": "server.js",
   "dependencies": {
-    "browser-sync": "^2.26.12",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.8",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "author": "Harris Fauntleroy",
   "license": "ISC"
