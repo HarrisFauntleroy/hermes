@@ -1,0 +1,5 @@
+# Dependencies
+node_modules/
+
+# JSON web tokens
+config/default.json

@@ -1,0 +1,16 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "# JSON Web Tokens for Authentication # ES6+ Syntax # Postman HTTP Client for API requests to test endpoints  # Async / Await # Mongoose / MongoDB/ Atlas ( Cloud database ) # React Hooks # Bcrypt Password Hashing # Redux with DevTools # Google Cloud / Google App Engine deployment # Git version control ( Feature Branches > Development > Release Branches > Hotfixes > Master )",
+  "main": "server.js",
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harris Fauntleroy",
+  "license": "ISC"
+}
