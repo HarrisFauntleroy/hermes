@@ -3,3 +3,8 @@ node_modules/
 
 # JSON web tokens
 config/default.json
+
+# Working trees
+development/
+feature/
+hotfix/
