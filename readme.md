@@ -1,12 +1,29 @@
-# Full MERN stack social network using the following web technologies.
+# Full stack application using MongoDB, Express, React & Node.js
 
-### JSON Web Tokens for Authentication
+## Using up to date methodologies and best practices where possible.
+
+### Interacting with Github API for profile data
+
+### Facebook, Google, Twitter and Instagram authentication interaction
+
+### JWT (JSON Web Tokens) for Authentication
+
 ### ES6+ Syntax
-### Postman HTTP Client for API requests to test endpoints 
+
 ### Async / Await
-### Mongoose / MongoDB/ Atlas ( Cloud database )
+
 ### React Hooks
-### Bcrypt Password Hashing
-### Redux with DevTools
-### Google Cloud / Google App Engine deployment
+
+### BcryptJS library for Password Hashing
+
+## Developed using the following tools.
+
+### Deployed with Googles serverless App Engine
+
+### Database with MongoDB Atlas
+
 ### Git version control ( Feature Branches > Development > Release Branches > Hotfixes > Master )
+
+### Postman HTTP client used to test API endpoints
+
+### React and Redux devtools
