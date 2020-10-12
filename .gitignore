@@ -5,6 +5,4 @@ node_modules/
 config/default.json
 
 # Working trees
-development/
-feature/
-hotfix/
+workingtree/
