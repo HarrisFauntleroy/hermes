@@ -15,10 +15,18 @@ module.exports = function (req, res, next) {
 
     // Verify token 
     try {
-        const decoded = jwt.verify(token, config.get('jwtSecret'));
-        next();
-        req.user = decoded.user;
+        jwt.verify(token, config.get('jwtSecret'), (error, decoded) => {
+            if (error) {
+                return res.status(401).json({
+                    msg: 'Token is not valid'
+                });
+            } else {
+                req.user = decoded.user;
+                next();
+            }
+        });
     } catch (err) {
-        res.status(401).json({ msg: 'Token not valid' });
+        console.error('Something wrong with auth middleware');
+        res.status(500).json({ msg: 'Server Error' })
     }
-}
+};

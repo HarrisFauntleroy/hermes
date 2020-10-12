@@ -82,7 +82,7 @@ router.post(
                 config.get('jwtSecret'),
                 // Set expiration
                 // TODO Change to 3600
-                { expiresIn: 360000 },
+                { expiresIn: '5 days' },
                 (err, token) => {
                     if (err) throw err;
                     res.json({ token });
